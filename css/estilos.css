@@ -1,0 +1,516 @@
+#Planes a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#planes div ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center; }
+
+* {
+  margin: 2px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header {
+  background-color: #cdebf6;
+  color: #006a91;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 10; }
+  header h1 {
+    color: #2190ff;
+    text-align: left;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700; }
+  header nav a {
+    color: #370057;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px; }
+
+main .hero h2 {
+  text-align: left;
+  color: white;
+  font-size: 80px;
+  font-weight: 400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(../img/tecnologia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100;
+  height: 80vh;
+  padding: 30px; }
+
+main .hero a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background-color: #370057;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 200px;
+  border-radius: 7px;
+  position: absolute;
+  bottom: 200px; }
+
+main .emprendedor {
+  background-color: #cdebf6;
+  color: #006a91;
+  padding: 30px; }
+  main .emprendedor div h2 {
+    text-align: center;
+    color: #006a91;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px; }
+  main .emprendedor div p {
+    margin-top: 40px;
+    color: #393838;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center; }
+
+main .nosotros {
+  margin-top: 70px; }
+  main .nosotros div {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 10px; }
+    main .nosotros div div grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.75); }
+    main .nosotros div div grid-item h3 {
+      color: white;
+      background-color: #006a91;
+      margin-left: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      text-align: center;
+      justify-content: center;
+      margin-top: 15px; }
+
+main #planes div grid-planes {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px; }
+  main #planes div grid-planes div grid-item-plan h3 {
+    margin-top: 70px;
+    color: #370057;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  main #planes div grid-planes div grid-item-plan ul {
+    border: 2px solid #370057;
+    border-radius: 20px;
+    margin-top: 6px;
+    font-size: 14px; }
+    main #planes div grid-planes div grid-item-plan ul li {
+      color: #393838;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      margin-top: 10px;
+      margin-left: 45px; }
+
+main #planes div a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #370057;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+#proceso {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  #proceso div grid-proceso {
+    width: 100%;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px; }
+    #proceso div grid-proceso div grid-item-proceso img {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      width: 80px;
+      height: 80px; }
+    #proceso div grid-proceso div grid-item-proceso h4 {
+      color: #006a91;
+      font-size: 25px;
+      font-weight: 100;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.equipo {
+  background-color: #006a91;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  .equipo div h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 300; }
+  .equipo div p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 10px; }
+  .equipo div a {
+    background-color: #370057;
+    color: white;
+    justify-content: end;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+
+footer {
+  background-color: #cdebf6;
+  color: #006a91;
+  text-align: right; }
+  footer h3 {
+    color: #2190ff;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px; }
+    footer h3 div a img {
+      width: 45px;
+      height: 45px; }
+    footer h3 div p {
+      color: #006a91;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      font-weight: 10px;
+      text-align: right; }
+
+.boton {
+  background-color: #370057;
+  font-size: 25px;
+  border-radius: 7px;
+  color: white; }
+
+#Planes a {
+  background-color: #370057;
+  border-radius: 2px; }
+
+#planes div ul {
+  border: 2px solid #370057;
+  border-radius: 20px;
+  font-size: 25px; }
+
+.equipo div a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero h2 {
+  text-align: left;
+  color: white;
+  font-size: 60px;
+  font-weight: 400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(../img/tecnologia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100;
+  height: 80vh;
+  padding: 30px; }
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #370057;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 150px;
+  border-radius: 7px;
+  position: absolute;
+  bottom: 30px; }
+
+.footer {
+  background-color: #cdebf6;
+  color: #006a91;
+  text-align: right; }
+  .footer h3 {
+    color: dodgerblue;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px; }
+    .footer h3 div a img {
+      width: 45px;
+      height: 45px; }
+    .footer h3 div p {
+      color: #006a91;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      font-weight: 10px;
+      text-align: right; }
+
+@media screen and (max-width: 950px) {
+  .hero h2 {
+    font-size: 35px;
+    font-weight: 200px; }
+  .hero a {
+    margin-left: 90px;
+    bottom: 50px; }
+  .emprendedor div h2 {
+    font-size: 25px; }
+  .emprendedor div p {
+    font-size: 14px; }
+  #Planes div grid-planes div gid-item-plan ul li {
+    font-size: 14px; }
+  #Planes div grid-planes div a {
+    margin-left: 85px;
+    bottom: 10px;
+    font-size: 12px;
+    border-radius: 5px; }
+  #Planes #Proceso div grid-proceso div grid-item-proceso div img {
+    width: 60px;
+    height: 60px; }
+  #Planes #Proceso div grid-proceso div grid-item-proceso div h4 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 890px) {
+  header nav a {
+    margin: 15px;
+    font-size: 18px; }
+  .emprendedor h2 {
+    font-size: 22px; }
+  .emprendedor p {
+    font-size: 13px; }
+  #Proceso div grid-proceso div grid-item-proceso div img {
+    width: 55px;
+    height: 55px; }
+  #Proceso div grid-proceso div grid-item-proceso div h4 {
+    font-size: 12px; } }
+
+@media screen and (max-width: 800px) {
+  header nav a {
+    margin: 15px;
+    font-size: 16px; }
+  #Planes div grid-planes div a {
+    margin-left: 65px;
+    bottom: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 10px; }
+  .equipo div h2 {
+    font-size: 26px; }
+  .equipo div div p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 690px) {
+  header h1 {
+    font-size: 40px;
+    font-weight: 600; }
+  header nav a {
+    margin: 10px;
+    font-size: 14px; }
+  .emprendedor div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start; }
+    .emprendedor div h2 {
+      font-size: 20px;
+      text-align: left; }
+    .emprendedor div p {
+      text-align: left; }
+  #Planes div grid-planes div a {
+    margin-left: 50px;
+    bottom: 5px;
+    font-size: 10px; } }
+
+@media screen and (max-width: 580px) {
+  header h1 {
+    font-size: 35px;
+    font-weight: 500; }
+  header nav a {
+    margin: 10px;
+    font-size: 12px; }
+  .hero h2 {
+    font-size: 32px;
+    font-weight: 150px; }
+  .hero a {
+    margin-left: 90px;
+    bottom: 110px; }
+  .grid-nosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center; }
+  #Planes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center; }
+    #Planes div grid-planes {
+      margin-top: 30px; }
+      #Planes div grid-planes div grid-item-plan h3 {
+        font-size: 30px;
+        font-weight: 150px; }
+      #Planes div grid-planes div grid-item-plan ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center; }
+      #Planes div grid-planes div a {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-start;
+        margin-left: 20px; } }
+
+@media screen and (max-width: 430px) {
+  header nav a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: stretch;
+    margin: 5px;
+    font-size: 10px; }
+  .hero h2 {
+    font-size: 30px;
+    font-weight: 120px; }
+  .hero a {
+    margin-left: 80px;
+    bottom: 80px;
+    font-size: 12px; }
+  .emprendedor div h2 {
+    font-size: 18px;
+    text-align: left; }
+  .emprendedor div p {
+    font-size: 12px; }
+  #Proceso {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1px; }
+    #Proceso div grid-nosotros div grid-item img {
+      width: 50px;
+      height: 50px; }
+    #Proceso div grid-nosotros div grid-item h3 {
+      font-size: 10px;
+      text-align: center; }
+  .equipo div h2 {
+    font-size: 21px; }
+  .equipo div p {
+    font-size: 12px; }
+  .equipo div a {
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin: 10px; }
+  footer h3 {
+    font-size: 22px; }
+    footer h3 div a img {
+      width: 20px;
+      height: 20px; }
+    footer h3 div p {
+      font-size: 9px; } }
+
+@media screen and (max-width: 350px) {
+  .hero h2 {
+    text-align: center;
+    font-size: 25px; }
+  .hero a {
+    margin-left: 120px;
+    bottom: 110px;
+    font-size: 10px; }
+  .emprendedor div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch; }
+    .emprendedor div h2 {
+      font-size: 16px;
+      text-align: center; }
+    .emprendedor div p {
+      font-size: 10px;
+      text-align: left; } }

@@ -1,0 +1,54 @@
+$color-primario:rgb(0, 106, 145);
+$color-secundario:rgb(55, 0, 87);
+$color-terciario: rgb(205, 235, 246);
+$color-titulo: rgb(33, 144, 255);
+$color-informacion: rgb(255, 255, 255);
+$color-textos:rgb(57, 56, 56);
+
+
+$boton:(
+    fondo-boton:rgb(55, 0, 87),
+    font-size: 25px,
+    border-radius: 7px,
+    color-text: rgb(255, 255, 255),
+);
+
+
+//* LISTAS
+$font-size:
+14px,
+15px,
+18px,
+20px,
+25px,
+30px,
+35px,
+40px,
+45px,
+50px,
+70px,
+80px;
+
+
+//* EXTENDS
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+}
+
+//* MIXIN
+@mixin flex($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

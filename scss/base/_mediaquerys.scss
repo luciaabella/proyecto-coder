@@ -1,0 +1,371 @@
+@media screen and (max-width:950px){
+    .hero{
+        h2{
+            font-size: 35px;
+            font-weight: 200px;
+        }
+        a{
+            margin-left: 90px;
+            bottom: 50px;
+        }
+    }
+    .emprendedor{
+        div{
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    #Planes{
+        div grid-planes{
+            div gid-item-plan{
+                h3{
+                }
+                ul{
+                    li{
+                        font-size: 14px;
+                    }
+                }
+            }
+            div{
+                a{
+                    margin-left: 85px;
+                    bottom: 10px;
+                    font-size: 12px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    #Proceso{
+        div grid-proceso{
+            div grid-item-proceso{
+                div{
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                    h4{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+
+@media screen and (max-width:890px){
+    header{
+        h1{
+        }
+        nav{
+            a{
+                margin: 15px;
+                font-size: 18px;
+            }
+        }
+    }
+    .emprendedor{
+        h2{
+            font-size: 22px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    #Proceso{
+        div grid-proceso{
+            div grid-item-proceso{
+                div{
+                    img{
+                        width: 55px;
+                        height: 55px;
+                    }
+                    h4{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    header{
+        h1{
+        }
+        nav{
+            a{
+                margin: 15px;
+                font-size: 16px;
+            }
+        }
+    }
+    #Planes{
+        div grid-planes{
+        div{
+            a{
+                margin-left: 65px;
+            bottom: 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            margin-top: 10px;
+            }
+            }
+        }
+    }
+    .equipo{
+        div{
+            h2{
+                font-size: 26px;
+            }
+        div{
+            p{
+                font-size: 14px;
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width:690px){
+    header{
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        nav{
+            a{
+                margin: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    .emprendedor{
+        div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: flex-start;
+            h2{
+                font-size: 20px;
+                text-align: left;
+            }
+            p{
+                text-align: left;
+            }
+        }
+    }
+    #Planes{
+        div grid-planes{
+            div{
+                a{
+                    margin-left: 50px;
+                    bottom: 5px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:580px){
+    header{
+        h1{
+            font-size: 35px;
+            font-weight: 500;
+        }
+        nav{
+            a{
+                margin: 10px;
+        font-size: 12px;
+            }
+        }
+    }
+    .hero{
+        h2{
+            font-size: 32px;
+            font-weight: 150px;
+        }
+        a{
+            margin-left: 90px;
+            bottom: 110px;
+        }
+    }
+    .grid-nosotros{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+    }
+    #Planes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+
+        div grid-planes{
+            margin-top: 30px;
+            div grid-item-plan{
+                h3{
+                    font-size: 30px;
+                    font-weight: 150px;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                }
+            }
+            div{
+                a{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    align-content: flex-start;  
+                    margin-left: 20px;
+                }
+        }
+        }
+    }
+}
+
+@media screen and (max-width:430px){
+    header{
+        nav{
+            a{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-items: flex-end;
+                align-content: stretch;
+                margin: 5px;
+                font-size: 10px;
+            }
+        }
+    }
+    .hero{
+        h2{
+            font-size: 30px;
+            font-weight: 120px;
+        }
+        a{
+            margin-left: 80px;
+            bottom: 80px;
+            font-size: 12px;
+        }
+    }
+    .emprendedor{
+        div{
+            h2{
+                font-size: 18px;
+                text-align: left;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    #Proceso{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 1px;
+        
+        div grid-nosotros{
+            div grid-item{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+                h3{
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .equipo{
+        div{
+            h2{
+                font-size: 21px;
+            }
+        }
+        div{
+            p{
+                font-size: 12px;
+            }
+            a{
+                font-size: 10px;
+                padding-bottom: 10px;
+                margin: 10px;
+            }
+        }
+    }
+    footer{
+        h3{
+            font-size: 22px;
+            div{
+                a{
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                p{
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:350px){
+    .hero{
+        h2{
+            text-align: center;
+        font-size: 25px;
+        }
+        a{
+            margin-left: 120px;
+        bottom: 110px;
+        font-size: 10px;
+        }
+    }
+    .emprendedor{
+        div{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: stretch;
+            align-content: stretch;
+            h2{
+                font-size: 16px;
+                text-align: center;
+            }
+            p{
+                font-size: 10px;
+                text-align: left;
+            }
+        }
+    }
+}
