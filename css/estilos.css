@@ -1,11 +1,6 @@
 #Planes{
   overflow-x:hidden;
-  display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: center;
+
 }
 
 #Planes a {
@@ -258,7 +253,7 @@ footer {
       text-align: right; }
 
 .boton {
-  background-color: #370057;
+  background-color: #370057 !important;
   font-size: 25px;
   border-radius: 7px;
   color: white; }

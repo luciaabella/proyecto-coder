@@ -3,11 +3,17 @@
     margin: 2px;
     padding: 0px;
     box-sizing: border-box;
+
+    background: linear-gradient(rgba(57, 0, 78, 0.555), rgba(67, 167, 203, 0.383)),url(../img/fondo-burbuja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 
 header{
-    background-color: rgb(205, 235, 246);
-    color:  rgb(0, 106, 145);
+    color:  rgb(255, 255, 255);
     top: 0;
     position: sticky;
     display: flex;
@@ -15,35 +21,31 @@ header{
     align-items: center;
     padding: 2px;
     z-index: 10;
-    
 }
 
 header h1{
-    color: dodgerblue;
+    color: rgb(0, 213, 255);
     text-align: left;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
 }
 
 header nav a{
-    color:rgb(55, 0, 87);
+    color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 10px;
     text-align: right;
-}
-
-header .navbar{
-    --bs-navbar-brand-margin-end: 20%!important;
+    margin-top: 10px;
 }
 
 .hero h2{
     text-align: left;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    font-weight: 400px;
+    color:  rgb(205, 235, 246);
+    font-size: 60px;
+    font-weight: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(rgba(57, 0, 78, 0.555), rgba(98, 159, 181, 0.383)), url(../img/tecnologia.jpg);
     background-repeat: no-repeat;
@@ -58,18 +60,17 @@ header .navbar{
 
 .hero a{
     text-decoration: none;
-    color: white;
+    color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background-color: rgb(55, 0, 87);
+    background-color: rgb(50, 4, 50);
     display: inline-block;
     padding: 10px;
-    margin-top: 0px;
+    margin-top: 100px;
     margin-left: 150px;
     border-radius: 20px;
     position: absolute;
     bottom: 30px;
-
     transition-property: border;
     transition-duration: 8s;
     transition-timing-function: steps(5, end);
@@ -78,18 +79,18 @@ header .navbar{
 
 .hero a:hover{
     border-radius: 5px;
+    color: rgb(205, 235, 246);
 }
 
 
 .emprendedor{
-    background-color: rgb(205, 235, 246);
-    color:  rgb(0, 106, 145);
+    color:  rgb(205, 235, 246);
     padding: 30px;
 }
 
 .emprendedor h2{
     text-align: center;
-    color:  rgb(0, 106, 145);
+    color:   rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 40px;
@@ -97,19 +98,18 @@ header .navbar{
 
     .emprendedor p{
     margin-top: 40px;
-    color: rgb(57, 56, 56);
+    color:  rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
 }
 
 .nosotros{
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .nosotros h3{
-    color: white;
-    background-color: rgb(0, 106, 145);
+    color:  rgb(205, 235, 246);
     margin-left:20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -137,6 +137,8 @@ header .navbar{
 }
 
 #Planes{
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -147,15 +149,15 @@ header .navbar{
 
 #Planes h3{
     margin-top: 70px;
-    color:  rgb(55, 0, 87);
+    color:  rgb(205, 235, 246);
     text-align: center;
-    font-size: 40px;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 400px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #Planes ul li{
-    color: rgb(57, 56, 56);
+    color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 50;
@@ -165,18 +167,18 @@ header .navbar{
 
 #Planes a{
     text-decoration: none;
-    color: white;
+    color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    background-color: rgb(55, 0, 87);
+    background-color:  rgb(163, 72, 163);
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 815px;
     margin-right: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 700px;
     border-radius: 20px;
     margin-top: 20px;
     display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
@@ -192,7 +194,7 @@ header .navbar{
 }
 
 #Planes div ul{
-    border: 2px solid rgb(55, 0, 87);
+    border: 2px solid  rgb(205, 235, 246);
     border-radius: 20px;
     font-size: 25px;
 }
@@ -201,7 +203,7 @@ header .navbar{
 .grid-planes{
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 3fr);
     grid-auto-rows: 250px;
 }
 
@@ -228,7 +230,7 @@ header .navbar{
 }
 
 #Proceso h4{
-    color:  rgb(0, 106, 145);
+    color:  rgb(205, 235, 246);
     font-size: 25px;
     font-weight: 100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -255,8 +257,8 @@ header .navbar{
 
 
 .equipo{
-    background-color: rgb(0, 106, 145);
-    color: rgb(255, 255, 255);
+    background-color:rgb(50, 4, 50);
+    color:  rgb(205, 235, 246);
     padding: 30px;
     margin-top: 50px;
     position: sticky;
@@ -276,7 +278,7 @@ header .navbar{
 }
 
 .equipo div p{
-    color: rgb(255, 255, 255);
+    color:  rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: right;
@@ -288,9 +290,8 @@ header .navbar{
     transition-duration: 8s;
     transition-timing-function: steps(5, end);
     transition-delay: 6s;
-
-    background-color: rgb(55, 0, 87);
-    color: rgb(255, 255, 255);
+    background-color:rgb(50, 4, 50);
+    color: rgb(205, 235, 246);
     justify-content: end;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -316,12 +317,12 @@ header .navbar{
 
 
 footer{
-    background-color: rgb(205, 235, 246);
-    color:  rgb(0, 106, 145);
+    background-color: rgb(50, 4, 50);
+    color: rgb(205, 235, 246);
     text-align: right;
 }
 footer h3{
-    color: dodgerblue;
+    color:rgb(205, 235, 246);
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
@@ -339,7 +340,7 @@ div a img:hover{
 
 
 div p{
-    color:  rgb(0, 106, 145);
+    color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:15px ;
     font-weight: 10px;

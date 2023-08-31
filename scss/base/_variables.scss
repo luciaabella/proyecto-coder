@@ -1,16 +1,17 @@
-$color-primario:rgb(0, 106, 145);
-$color-secundario:rgb(55, 0, 87);
-$color-terciario: rgb(205, 235, 246);
-$color-titulo: rgb(33, 144, 255);
-$color-informacion: rgb(255, 255, 255);
-$color-textos:rgb(57, 56, 56);
+$color-primario: rgb(205, 235, 246);
+$color-secundario: rgb(50, 4, 50);
+$color-terciario: rgb(2, 157, 214);
+// Modificados
+// $color-titulo: rgb(33, 144, 255);
+// $color-informacion: rgb(255, 255, 255);
+// $color-textos:rgb(57, 56, 56);
 
 
 $boton:(
-    fondo-boton:rgb(55, 0, 87),
+    fondo-boton: rgb(205, 235, 246),
     font-size: 25px,
     border-radius: 7px,
-    color-text: rgb(255, 255, 255),
+    color-text:  rgb(205, 235, 246),
 );
 
 
