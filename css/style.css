@@ -3,13 +3,6 @@
     margin: 2px;
     padding: 0px;
     box-sizing: border-box;
-
-    background: linear-gradient(rgba(57, 0, 78, 0.555), rgba(67, 167, 203, 0.383)),url(../img/fondo-burbuja.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
 }
 
 header{
@@ -32,7 +25,7 @@ header h1{
 }
 
 header nav a{
-    color: rgb(205, 235, 246);
+    color: rgb(50, 4, 50);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -43,7 +36,7 @@ header nav a{
 
 .hero h2{
     text-align: left;
-    color:  rgb(205, 235, 246);
+    color: rgb(255, 255, 255);
     font-size: 60px;
     font-weight: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,7 +53,7 @@ header nav a{
 
 .hero a{
     text-decoration: none;
-    color: rgb(205, 235, 246);
+    color:rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     background-color: rgb(50, 4, 50);
@@ -74,31 +67,32 @@ header nav a{
     transition-property: border;
     transition-duration: 8s;
     transition-timing-function: steps(5, end);
-    transition-delay: 6s;
+    transition-delay: 8s;
 }
 
 .hero a:hover{
     border-radius: 5px;
-    color: rgb(205, 235, 246);
+    color:rgb(50, 4, 50);
 }
 
 
 .emprendedor{
-    color:  rgb(205, 235, 246);
+    color:  rgb(255, 255, 255);
     padding: 30px;
+    background-color:rgba(85, 23, 85, 0.839);
 }
 
 .emprendedor h2{
     text-align: center;
-    color:   rgb(205, 235, 246);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
     .emprendedor p{
     margin-top: 40px;
-    color:  rgb(205, 235, 246);
+    color:rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
@@ -109,7 +103,7 @@ header nav a{
 }
 
 .nosotros h3{
-    color:  rgb(205, 235, 246);
+    color: rgb(50, 4, 50);
     margin-left:20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -130,10 +124,11 @@ header nav a{
 .grid-nosotros div img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
     object-fit: cover;
-    -webkit-box-shadow: 15px 13px 17px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: 15px 13px 17px -9px rgba(0,0,0,0.75);
-    box-shadow: 15px 13px 17px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.392);
+    -moz-box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.396);
+    box-shadow: 15px 13px 17px -9px rgba(0, 0, 0, 0.308);
 }
 
 #Planes{
@@ -148,8 +143,9 @@ header nav a{
 }
 
 #Planes h3{
+    background-color:  rgba(85, 23, 85, 0.839);
     margin-top: 70px;
-    color:  rgb(205, 235, 246);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
     font-weight: 400px;
@@ -157,7 +153,7 @@ header nav a{
 }
 
 #Planes ul li{
-    color: rgb(205, 235, 246);
+    color:rgb(50, 4, 50);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 50;
@@ -170,13 +166,12 @@ header nav a{
     color: rgb(205, 235, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    background-color:  rgb(163, 72, 163);
+    background-color:rgb(50, 4, 50);
     padding: 10px;
     margin-left: 815px;
-    margin-right: 100px;
-    margin-bottom: 700px;
+    margin-right: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: -80px;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -194,14 +189,14 @@ header nav a{
 }
 
 #Planes div ul{
-    border: 2px solid  rgb(205, 235, 246);
+    border: 2px solid rgb(50, 4, 50);
     border-radius: 20px;
     font-size: 25px;
 }
 
 
 .grid-planes{
-    margin-top: 80px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     grid-auto-rows: 250px;
@@ -214,7 +209,7 @@ header nav a{
 
 
 #Proceso div{
-    margin-top: 85px;
+    margin-top: 40px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -230,7 +225,7 @@ header nav a{
 }
 
 #Proceso h4{
-    color:  rgb(205, 235, 246);
+    color: rgb(50, 4, 50);
     font-size: 25px;
     font-weight: 100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -238,7 +233,6 @@ header nav a{
 
 .grid-proceso{
     width: 100%;
-    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
@@ -254,13 +248,12 @@ header nav a{
     transform: translateY(-40px);
 }
 
-
-
 .equipo{
+    height: 400px;
     background-color:rgb(50, 4, 50);
-    color:  rgb(205, 235, 246);
+    color:  rgb(255, 255, 255);
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 90px;
     position: sticky;
     display: flex;
 	flex-direction: row;
@@ -278,7 +271,7 @@ header nav a{
 }
 
 .equipo div p{
-    color:  rgb(205, 235, 246);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: right;
@@ -290,15 +283,15 @@ header nav a{
     transition-duration: 8s;
     transition-timing-function: steps(5, end);
     transition-delay: 6s;
-    background-color:rgb(50, 4, 50);
-    color: rgb(205, 235, 246);
+    background-color: rgba(85, 23, 85, 0.839);
+    color: rgb(255, 255, 255);
     justify-content: end;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     padding: 10px;
     margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     margin-left: 100px;
     margin-right: 80px;
@@ -308,7 +301,6 @@ header nav a{
 	justify-content: center;
 	align-items: center;
 	align-content: center
-    
 }
 
 .equipo div a:hover{
@@ -317,8 +309,10 @@ header nav a{
 
 
 footer{
-    background-color: rgb(50, 4, 50);
-    color: rgb(205, 235, 246);
+    margin-top: 80px;
+    background-color: rgba(85, 23, 85, 0.839);
+    height: 130px;
+    color:  rgb(0, 213, 255);
     text-align: right;
 }
 footer h3{
@@ -340,7 +334,7 @@ div a img:hover{
 
 
 div p{
-    color: rgb(205, 235, 246);
+    color: rgb(50, 4, 50);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:15px ;
     font-weight: 10px;
@@ -348,14 +342,24 @@ div p{
 }
 
 
-@media screen and (max-width:950px){
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:975px){
     .hero h2{
-        font-size: 80px;
+        font-size: 60px;
         font-weight: 200px;
     }
     .hero a{
-        margin-left: 200px;
-        bottom: 200px;
+        margin-left: 150px;
+        bottom: -155px;
+        border-radius: 20px;
     }
     .emprendedor h2{
         font-size: 25px;
@@ -367,10 +371,10 @@ div p{
         font-size: 14px;
     }
     #Planes a{
-        margin-left: 85px;
+        margin-left: 500px;
         bottom: 10px;
         font-size: 12px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
     #Proceso img{
         width: 60px;
@@ -379,242 +383,415 @@ div p{
     #Proceso h4{
         font-size: 15px;
     }
+    .equipo div h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-size: 35px;
+        font-weight: 300;
+    }
+    
+    .equipo div p{
+        color: rgb(255, 255, 255);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .equipo div a{
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 240px;
+        margin-right: 100px;
+    }
+    footer h3{
+        color: rgb(0, 213, 255);
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: left;
+        margin-left: 10px;
+    }
+    footer div a img{
+        transition: 2s;
+        width: 40px;
+        height: 40px;
+    }
+    footer div a img:hover{
+        transform:translateY(-20px)
+    }
+    footer div p{
+        color: rgb(50, 4, 50);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px ;
+        font-weight: 10px;
+        text-align: right;
+    }
 }
 
 
 @media screen and (max-width:890px){
-    header nav a{
-    margin: 15px;
-    font-size: 18px;
-    }
-    .hero a{
-        margin-left: 200px;
-        bottom: 200px;
-    }
-    .emprendedor h2{
-    font-size: 22px;
-    }
-    .emprendedor p{
-        font-size: 13px;
-    }
-    #Proceso img{
-        width: 55px;
-        height: 55px;
-    }
-    #Proceso h4{
+    #Planes a{
+        margin-left: 500px;
+        bottom: 10px;
         font-size: 12px;
+        border-radius: 50px;
     }
 }
 
-@media screen and (max-width:800px){
-    header nav a{
-        margin: 15px;
-        font-size: 16px;
-        }
-        #Planes a{
-            margin-left: 65px;
-            bottom: 10px;
-            font-size: 12px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .equipo div h2{
-            font-size: 26px;
-        }
-        .equipo div p{
-            font-size: 14px;
-        }
+@media screen and (max-width:872px){
+    #Planes a{
+        margin-left: 450px;
+        bottom: 10px;
+        font-size: 12px;
+        border-radius: 50px;
+    }
+    .equipo div a{
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 100px;
+    }
 }
 
-@media screen and (max-width:690px){
-    header h1{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    header nav a{
-        margin: 10px;
-        font-size: 14px;
-    }
-    .emprendedor div{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
-    }
-    .emprendedor h2{
-        font-size: 20px;
-        text-align: left;
-    }
-    .emprendedor div p{
-        text-align: left;
-    }
-    #Planes div a{
-        margin-left: 50px;
-        bottom: 5px;
+@media screen and (max-width:820px){
+    #Planes a{
         font-size: 10px;
     }
 }
 
-
-@media screen and (max-width:580px){
-    header h1{
-        font-size: 35px;
-        font-weight: 500;
-    }
-    header nav a{
-        margin: 10px;
-        font-size: 12px;
-    }
-    .hero h2{
-        font-size: 32px;
-        font-weight: 150px;
-    }
-    .hero a{
-        margin-left: 90px;
-        bottom: 110px;
-    }
-    .grid-nosotros{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: stretch;
-        align-content: center;
-    }
-    #Planes{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: stretch;
-        align-content: center;
-    }
-    .grid-planes{
-        margin-top: 30px;
-    }
-    #Planes div h3{
-        font-size: 30px;
-        font-weight: 150px;
-    }
-    #Planes ul{
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+@media screen and (max-width:750px){
+    #Planes ul li{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 15px;
     }
     #Planes a{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: flex-end;
-	align-content: flex-start;  
-    margin-left: 20px;
+        font-size: 9px;
+        margin-left: 395px;
+        margin-top:-65px;
+    }
+    .equipo div p{
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .equipo div a{
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 150px;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+    .equipo div h2{
+        font-size: 30px;
+        font-weight: 280px;
     }
 }
 
-
-@media screen and (max-width:430px){
-    header nav a{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: flex-end;
-        align-content: stretch;
-        margin: 5px;
-        font-size: 10px;
-    }
+@media screen and (max-width:700px){
     .hero h2{
-        font-size: 30px;
-        font-weight: 120px;
+        font-size: 50px;
+        font-weight: 100px;
     }
     .hero a{
-        margin-left: 80px;
-        bottom: 80px;
-        font-size: 12px;
+        font-size: 15px;
+        margin-left: 130px;
+        bottom: -185px;
+        border-radius: 18px;
     }
-    .emprendedor h2{
-        font-size: 18px;
-        text-align: left;
+    .grid-nosotros{
+        width: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 70px;
     }
-    .emprendedor p{
-        font-size: 12px;
+    #Planes a{
+        font-size: 9px;
+        margin-left: 345px;
+        margin-right: 50px;
+        margin-top:-85px;
     }
+    #Planes ul li{
+        font-size: 13px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .equipo div h2{
+        font-size: 28px;
+    }
+    .equipo div p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .equipo div a{
+        margin-top: 25px;
+        margin-left: 170px;
+        margin-right: 60px;
+        font-size: 11px;
+    }
+}
 
-    #Proceso{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin-top: 1px;
+@media screen and (max-width:650px){
+    #Planes a{
+        margin-left: 300px;
+        margin-right: 35px;
+        margin-top:-65px;
+        padding: 12px;
+    }
+    #Planes ul li{
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:600px){
+    .hero h2{
+        font-size: 50px;
+    }
+    .hero a{
+        font-size: 12px;
+        margin-left: 110px;
+        bottom: -175px;
+        border-radius: 17px;
+    }
+    #Planes a{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top:-8px;
+        padding: 10px;
+    }
+    #Planes ul li{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #Proceso h4{
+        font-size: 14px;
+    }
+    .equipo div h2{
+        font-size: 28px;
+    }
+    .equipo div p{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .equipo div a{
+        margin-top: 20px;
+        margin-left: 120px;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:560px){
+    .equipo div p{
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .equipo div a{
+        margin-top: 15px;
+        margin-left: 90px;
+        margin-right: 60px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .hero h2{
+        font-size: 45px;
+    }
+    .hero a{
+        font-size: 11px;
+        margin-left: 112px;
+        bottom: -150px;
+        border-radius: 18px;
+    }
+    .nosotros h3{
+    font-size: 18px;
+    }
+    .grid-planes{
+        column-gap: 60px;
+    }
+    #Planes h3{
+        margin-top: 100px;
+        font-size: 22px;
+        font-weight: 200px;
+        bottom: 30px;
+    }
+    #Planes a{
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top:-12px;
+        padding: 6px;
+    }    
+    #Proceso h4{
+        font-size: 12px;
+        margin-top: 50px;
     }
     #Proceso img{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
-    #Proceso h3{
-        font-size: 10px;
-        text-align: center;
+    .equipo{
+        height: 200px;
+        margin-top: 45px;
     }
     .equipo div h2{
         font-size: 21px;
     }
     .equipo div p{
-        font-size: 12px;
+        font-size: 10px;
+        margin-top: 7px;
     }
     .equipo div a{
-        font-size: 10px;
-        padding-bottom: 10px;
-        margin: 10px;
+        margin-top: 12px;
+        margin-left: 100px;
+        margin-right: 60px;
+        font-size: 8px;
     }
     footer h3{
-        font-size: 22px;
+        font-size: 20px;
     }
-    div a img{
-        width: 20px;
-        height: 20px;
+    footer div a img{
+        width: 25px;
+        height: 25px;
     }
-    div p{
-        font-size: 9px;
+    footer div p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:450px){
+    .hero h2{
+        font-size: 40px;
+    }
+    .hero a{
+        font-size: 10px;
+        margin-left: 100px;
+        bottom: -120px;
+    }
+    .nosotros h3{
+        font-size: 15px;
+        }
+    #Planes h3{
+        font-size: 20px;
+    }
+    #Planes ul li{
+        font-size: 11px;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+    #Planes a{
+        margin-left: 35px;
+        margin-right: 90px;
+        margin-top:-11px;
+        padding: 5px;
+    } 
+    .grid-planes div{
+        width:120%;
+        height: 120%;
+    }
+    .equipo{
+        height: 170px;
+        margin-top: 35px;
+    }
+    .equipo div h2{
+        font-size: 18px;
+    }
+    .equipo div p{
+        font-size: 8px;
+        margin-top: 9px;
+    }
+    .equipo div a{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 7px;
+        padding: 5px;
+    }
+    .emprendedor h2{
+        font-size: 21px;
+    }
+    footer{
+        height: 90px;
+    }
+    footer h3{
+        font-size: 14px;
+    }
+    footer div a img{
+        width: 22px;
+        height: 22px;
     }
 }
 
+@media screen and (max-width:400px){
+    #Planes{
+        margin-left: 50px;
+    }
+    #Planes ul li{
+        font-size: 10px;
+    } 
+    #Proceso h4{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    #Proceso img{
+        width: 30px;
+        height: 30px;
+    }    
+    .equipo div h2{
+        font-size: 16px;
+    }
+    .equipo div p{
+        font-size: 7px;
+        margin-top: 8px;
+    }
+    .equipo div a{
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 30px;
+        font-size: 6px;
+    }
+}
 @media screen and (max-width:350px){
     .hero h2{
-        text-align: center;
-        font-size: 25px;
+        font-size: 32px;
     }
     .hero a{
-        margin-left: 120px;
-        bottom: 110px;
         font-size: 10px;
-    }
-    .emprendedor div{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: stretch;
-        align-content: stretch;
+        margin-left: 100px;
+        bottom: -150px;
     }
     .emprendedor h2{
         font-size: 16px;
-        text-align: center;
     }
-    .emprendedor div p{
+    .emprendedor p{
         font-size: 10px;
-        text-align: left;
+        margin-top: 18px;
     }
-
+    #Proceso h4{
+        font-size: 8px;
+        margin-top: 25px;
+    }
+    #Proceso img{
+        width: 18px;
+        height: 18px;
+    }
+    .equipo{
+        height: 150px;
+        margin-top: 30px;
+    }
+    .equipo div h2{
+        font-size: 15px;
+    }
+    .equipo div p{
+        font-size: 6px;
+        margin-top: 7px;
+    }
+    footer h3{
+        font-size: 14px;
+    }
+    footer div a img{
+        width: 20px;
+        height: 20px;
+    }
+    footer div p{
+        font-size: 7px;
+    }
 }
-
-
-
-

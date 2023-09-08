@@ -1,0 +1,35 @@
+/* ESTILO EQUIPO */
+.formulario h4{
+    background-color:  rgba(85, 23, 85, 0.839);
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.formulario-texto h5{
+    margin-top: 30px;
+    color:  rgb(50, 4, 50);
+}
+
+
+/* ESTILO CONTACTO */
+.titulo-contacto h3{
+    background-color:rgba(85, 23, 85, 0.839);
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.titulo-contacto p{
+    text-align: center;
+}
+
+.titulo-contacto iframe{
+    margin-top: 40px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
